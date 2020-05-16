@@ -4,7 +4,7 @@
 //array of words
 
 var wordList = ["hermione", "zelda", "link", "taco", "pizza", "boat", "truck",
-     "record", "burrito", "elephant", "lion", "salad", "frisbee", "mario", "heart", "gymnastics", "hooray", "lava", "peaches", "flute", "trombone", "legos", "donkey", "ship", "pool", "championship", "polyjuice", "hogwarts", "harry", "ron", "luna", "draco", "dobby", "fluffy", "hippogriff", "gryffindor", "hedwig", "triwizard", "portkey", "quidditch"];
+     "record", "burrito", "elephant", "lion", "salad", "frisbee", "mario", "heart", "gymnastics", "hooray", "delater", "kelsey", "display", "lava", "peaches", "flute", "trombone", "legos", "donkey", "ship", "pool", "championship", "polyjuice", "hogwarts", "harry", "ron", "luna", "draco", "dobby", "fluffy", "hippogriff", "gryffindor", "hedwig", "triwizard", "train", "quidditch"];
 
 /*
 var wordList = ["polyjuice", "hogwarts", "hermione", "harry", "ron", "luna", "draco",
@@ -49,6 +49,7 @@ var wrongLetters = [];
     // This function is run whenever the user presses a key.
 document.onkeyup = function (event) {
 
+    
     // console.log(wrongLetters.length + " <-- wrong Letters");
 
     var blanks = document.getElementById("blankSpaces");
